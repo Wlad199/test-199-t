@@ -5,10 +5,10 @@
 		<p>Время публикации: {{ publicationTime }}</p>
 		<p>Сегодня: {{ $dayjs() }}</p>
 	</div>
-	<div>
+	<!--<div>
 		<NuxtImg src="/public/main.jpg" />
 		<NuxtImg src="/public/01.jpg" />
-	</div>
+	</div>-->
 	<div>
 		<img src="/public/main.jpg">
 		<img src="/public/01.jpg">
