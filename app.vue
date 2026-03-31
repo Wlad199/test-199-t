@@ -5,13 +5,15 @@
 		<p>Время публикации: {{ publicationTime }}</p>
 		<p>Сегодня: {{ $dayjs() }}</p>
 	</div>
-	<!--<div>
-		<NuxtImg src="/public/main.jpg" />
-		<NuxtImg src="/public/01.jpg" />
-	</div>-->
 	<div>
-		<img src="/public/main.jpg">
-		<img src="/public/01.jpg">
+		<h2>NuxtImg</h2>
+		<NuxtImg src='/images/main.jpg'/>
+		<NuxtImg src="/images/01.jpg" />
+	</div>
+	<div>
+		<h2>SRC</h2>
+		<img src="/public/images/main.jpg">
+		<img src="/public/images/01.jpg">
 	</div>
 </template>
 
