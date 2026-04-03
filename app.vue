@@ -5,7 +5,7 @@
 		<NuxtImg src="/images/01.jpg" />
 	</div>
 	<div>
-		<h2>SRC</h2>
+		<h2>SRC was corrected</h2>
 		<img src="/public/images/main.jpg">
 		<img src="/public/images/01.jpg">
 	</div>
